@@ -8,13 +8,14 @@
 
 # [용역 / 공사 / 물품] 에 대해서 관리도를 통한 예산 관리 & 예산 사용량 예측
 여러가지 관리도를 적용시켜 보았으며 예산 사용량 예측은 좋은 결과를 내지는 못하였지만 좋은 시도라고 생각되어져서 올립니다.
-[생성한 관리도는 다음과 같습니다.]
+
+*생성한 관리도는 다음과 같습니다.
 1) X_bar - S 관리도
 2) X_bar - R_bar 관리도
 3) bootstrapping을 적용시킨 T_square 관리도
 4) bootstrapping을 적용시킨 SVD 관리도
 
-[사용한 회귀모델은 다음과 같습니다.]
+*사용한 회귀모델은 다음과 같습니다.
 1) XGBoostRegression
 2) RandomForestRegression
 3) GradientBoostingRegressor
