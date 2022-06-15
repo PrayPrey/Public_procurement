@@ -15,6 +15,10 @@
 3) bootstrapping을 적용시킨 T_square 관리도
 4) bootstrapping을 적용시킨 SVD 관리도
 
+
+여러 개의 가설 검정을 한꺼번에 해서 나타나는 alpha값 문제 때문에 다중 가설 검정 (각 변수가 추정가격, 즉 예산에 영향을 끼치는지 아닌지 파악하기 위해서 가설검정)을 사용하였습니다.
+
+
 *사용한 회귀모델은 다음과 같습니다.
 1) XGBoostRegression
 2) RandomForestRegression
